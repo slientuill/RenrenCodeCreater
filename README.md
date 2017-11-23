@@ -8,6 +8,7 @@
 实现在人人框架下##对数据库表基本的增删改查##前后端所有代码生成
 支持对一个主要字段的简单模糊查询
 ## 代码简介
+```
 public static void main(String[] args) {
 		    String FilePath="D:\\xxx\\xxx\\xxx\\xxx\\src\\main\\";//设置文件根路径
             String EntityName = "xxInfo";//设置实体名称,要跟数据库表名保持一致 例如数据库表名为people_info,则实体名称应当为PeopleInfo,双大写
@@ -29,3 +30,4 @@ public static void main(String[] args) {
             c.CreateJsCode();//生成Js代码
             c.CreateHtmlCode();//生成HTMl代码
 		}
+```
